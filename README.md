@@ -57,9 +57,10 @@
   
 ![alt text](img/csvparsing.PNG?raw=true)
 
+Once you fill all those fields, launch the connector.
 
-# Part 1 : Kafka & ELK
+# Part 2 : Kafka & ELK
 
 
 
-# Part 2 : Kafka Streams
+# Part 3 : Kafka Streams
