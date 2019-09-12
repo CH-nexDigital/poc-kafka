@@ -1,0 +1,44 @@
+Transaction_date,Product,Price,Payment_Type,Name,City,State,Country,Account_Created,Last_Login,Latitude,Longitude
+1/10/09 12:57,Product1,1200,Amex,Vanessa,Sandy Springs               ,GA,United States,2/7/07 20:16,1/10/09 14:09,33.92417,-84.37861
+1/10/09 14:43,Product1,1200,Diners,Anupam,Kinsaley,Dublin,Ireland,1/9/09 11:38,1/10/09 14:37,53.4247222,-6.1758333
+1/10/09 12:05,Product1,1200,Visa,Karina,Fort Lauderdale             ,FL,United States,7/1/08 12:53,1/10/09 16:33,26.12194,-80.14361
+1/6/09 1:20,Product1,1200,Mastercard,Frank,Melbourne,Victoria,Australia,1/2/09 17:51,1/10/09 18:27,-37.8166667,144.9666667
+1/10/09 14:56,Product1,1200,Visa,Angela,Ankeny                      ,IA,United States,1/8/09 3:06,1/10/09 19:41,41.72972,-93.60556
+1/7/09 10:01,Product1,1200,Visa,Darren,Pittsboro                   ,NC,United States,1/7/09 9:04,1/10/09 20:02,35.72,-79.1775
+1/1/09 1:26,Product1,1200,Mastercard,Nikki,New Rochelle                ,NY,United States,1/1/09 0:58,1/10/09 21:31,40.91139,-73.78278
+1/11/09 2:04,Product1,1200,Visa,chris,Gold Coast,Queensland,Australia,1/11/09 0:33,1/11/09 2:11,-28,153.4333333
+1/11/09 14:17,Product1,1200,Visa,Stephanie,Brussels,Brussels (Bruxelles),Belgium,1/11/09 13:39,1/11/09 13:39,50.8333333,4.3333333
+1/10/09 21:38,Product1,1200,Visa,Anushka,Maple Ridge District Municipality,British Columbia,Canada,1/10/09 21:17,1/11/09 19:32,49.25,-122.5
+1/7/09 6:18,Product1,1200,Mastercard,June ,Beachwood                   ,OH,United States,2/23/06 11:56,1/11/09 19:35,41.46444,-81.50889
+1/4/09 8:39,Product2,3600,Diners,Baybars,Prince Albert,Saskatchewan,Canada,1/3/09 17:17,1/11/09 21:05,53.2,-105.75
+1/5/09 0:31,Product1,1200,Mastercard,Bonnie,Saltsjobaden,Stockholm,Sweden,1/4/09 23:45,1/12/09 0:37,59.2833333,18.3
+1/2/09 6:07,Product1,1200,Visa,Cindy ,Kemble,England,United Kingdom,12/30/08 10:21,1/12/09 2:24,51.6766667,-2.0180556
+1/12/09 3:25,Product1,1200,Mastercard,chrissy,W Lebanon                   ,NH,United States,1/12/09 3:12,1/12/09 3:22,43.64917,-72.31083
+1/4/09 13:56,Product1,1200,Mastercard,Tamar,Headley,England,United Kingdom,11/29/07 9:23,1/12/09 5:38,51.1166667,-0.8166667
+1/7/09 0:12,Product2,3600,Mastercard,Deirdre,Lausanne,Vaud,Switzerland,12/1/08 6:25,1/12/09 6:55,46.5333333,6.6666667
+1/12/09 5:18,Product1,1200,Mastercard,Bernadett,Southampton,England,United Kingdom,1/12/09 4:45,1/12/09 8:08,50.9,-1.4
+1/8/09 15:16,Product1,1200,Visa,Dottie,Woodsboro                   ,MD,United States,1/8/09 14:56,1/12/09 9:29,39.53306,-77.315
+1/11/09 11:33,Product1,1200,Visa,Stefan,Stavanger,Rogaland,Norway,1/11/09 9:02,1/12/09 10:37,58.9666667,5.75
+1/7/09 20:22,Product1,1200,Visa,Gina,Red Deer,Alberta,Canada,11/23/08 19:30,1/12/09 12:24,52.2666667,-113.8
+1/2/09 22:00,Product1,1200,Diners,Lynne,Memphis                     ,TN,United States,1/2/09 21:04,1/12/09 13:18,35.14944,-90.04889
+1/5/09 13:52,Product1,1200,Mastercard,Tammy,Morges,Vaud,Switzerland,1/5/09 5:55,1/12/09 14:04,46.5166667,6.5
+1/8/09 20:32,Product1,1200,Visa,Kim,Calgary,Alberta,Canada,1/8/09 20:21,1/12/09 14:07,51.0833333,-114.0833333
+1/8/09 13:34,Product1,1200,Visa,Bruce,Belleville,Ontario,Canada,1/6/09 14:38,1/12/09 18:31,44.1666667,-77.3833333
+1/11/09 13:08,Product1,1200,Visa,Rosa Maria,Cincinnati                  ,OH,United States,1/11/09 12:38,1/12/09 18:44,39.16194,-84.45694
+1/12/09 19:04,Product1,1200,Visa,Lydia,Comox,British Columbia,Canada,9/20/08 20:53,1/12/09 19:01,49.6833333,-124.9333333
+1/12/09 13:41,Product1,1200,Visa,Eric,Gasperich,Luxembourg,Luxembourg,1/12/09 13:16,1/13/09 1:03,49.5855556,6.1230556
+1/11/09 10:38,Product1,1200,Mastercard,AnaPaula,Helens Bay,Northern Ireland,United Kingdom,9/4/08 9:26,1/13/09 2:36,54.65,-5.7333333
+1/13/09 5:57,Product1,1200,Visa,Robin,Milan,Lombardy,Italy,10/15/08 5:31,1/13/09 5:55,45.4666667,9.2
+1/13/09 6:13,Product1,1200,Visa,Gitte,Staten Island               ,NY,United States,1/13/09 5:17,1/13/09 7:33,40.63667,-74.15917
+1/8/09 13:14,Product1,1200,Visa,Dr. Claudia,Oslo,Oslo,Norway,1/8/09 12:47,1/13/09 10:49,59.9166667,10.75
+1/2/09 11:41,Product1,1200,Visa,Crystal,Farmington,Michigan,United States,1/1/09 12:00,1/13/09 18:34,42.46444,-83.37639
+1/7/09 19:50,Product1,1200,Diners,Delphine,Santa Monica                ,CA,United States,1/3/09 12:04,1/13/09 20:17,34.01944,-118.49028
+1/1/09 20:28,Product1,1200,Visa,nathalie,Calgary,Alberta,Canada,1/1/09 20:11,1/13/09 21:11,51.0833333,-114.0833333
+1/3/09 15:22,Product1,1200,Mastercard,Lindi,Vancouver,British Columbia,Canada,2/20/08 22:45,1/13/09 23:02,49.25,-123.1333333
+1/12/09 3:03,Product2,3600,Mastercard,Valda,Irvine                      ,CA,United States,1/12/09 2:48,1/14/09 1:07,33.66944,-117.82222
+1/5/09 8:58,Product2,3600,Mastercard,Marcia,Telgte,Nordrhein-Westfalen,Germany,9/1/08 3:39,1/14/09 2:07,52.3333333,7.9
+1/10/09 14:03,Product1,1200,Mastercard,Kevin,Cheltenham,England,United Kingdom,3/13/06 4:56,1/14/09 2:22,51.9,-2.0833333
+1/13/09 11:26,Product1,1200,Visa,Clare,Keller                      ,VA,United States,1/13/09 11:15,1/14/09 2:39,37.61917,-75.76417
+1/2/09 12:18,Product1,1200,Visa,Alice,Nakskov,Storstrom,Denmark,12/5/07 11:37,1/14/09 4:05,54.8333333,11.15
+1/14/09 4:54,Product1,1200,Mastercard,ZENA,Honolulu                    ,HI,United States,1/14/09 4:34,1/14/09 4:43,21.30694,-157.85833
+1/6/09 17:15,Product1,1200,Visa,Andrea,Bubuieci,Chisinau,Moldova,12/24/08 17:31,1/14/09 10:27,46.985,28.9425
