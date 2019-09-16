@@ -154,3 +154,8 @@ Create your own visualization for monitoring.
 ![alt text](img/visu.PNG?raw=true)
 
 # Part 3 : Kafka Streams
+
+For this part, we will use another topic.
+
+```
+```
