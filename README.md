@@ -59,8 +59,98 @@
 
 Once you fill all those fields, launch the connector.
 
-# Part 2 : Kafka & ELK
+
+# Part 2 : Configuring Logstash
+
+You should add a pipeline to connect Logstash and Kafka.
+1. Create a configuration file **/etc/logstash/conf.d/logstash-kafka.conf**
+```
+$ touch /etc/logstash/conf.d/logstash-kafka.conf
+```
+
+2. Configure the /etc/logstash/conf.d/logstash-kafka.conf to match the following:
+```apache
+input {
+  kafka {
+    id => "my_plugin_id"
+    topics => ["log2kibana"]
+    bootstrap_servers => "localhost:9092"
+    auto_offset_reset => "earliest"
+  }
+}
+filter {
+  json {
+    source => ["message"]
+  }
+  prune {
+    blacklist_names => ["message"]
+  }
+
+}
+output {
+  elasticsearch { 
+  	hosts => ["localhost:9200"]
+  	ilm_rollover_alias => "kafka-poc"
+    ilm_pattern => "1"
+  }
+}
+```
+3. Configure the **/etc/logstash/pipelines.yml** file to match the following:
+```apache
+# This file is where you define your pipelines. You can define multiple.
+# For more information on multiple pipelines, see the documentation:
+#   https://www.elastic.co/guide/en/logstash/current/multiple-pipelines.html
+
+- pipeline.id: kafka-poc
+  path.config: "/etc/logstash/conf.d/logstash-kafka.conf"
+```
+4. Restart the logstash service to activate the pipeline that you just created.
+```bash
+# If you are using Systemd
+$ sudo systemctl restart logstash.service
+
+# If you are using Upstart
+$ sudo initctl restart logstash
+
+# If you are using SysV
+$ sudo /etc/init.d/logstash restart
+```
+
+# Part 3 : Ingesting data to Kafka
 
 
+1. Clone the repository
+
+<pre>
+$ git clone https://github.com/CH-nexDigital/poc-kafka
+</pre>
+
+2. Copy the data files to the input repository.
+
+<pre>
+$ cp data ./data/part1.csv <b>/path/to/the/input/folder/you/created/in/the/previous/part/</b>
+$ cp data ./data/part2.csv <b>/path/to/the/input/folder/you/created/in/the/previous/part/</b>
+</pre>
+
+3. Check the data from terminal
+Execute the following command in the terminal to verify that the CSV file data have been injested to Kafka.
+<pre>
+$ kafka-console-consumer --bootstrap-server localhost:9092 --topic log2kibana --from-beginning
+</pre>
+
+# Part 4 : Configuring Kibana
+
+Navigate to the Kibana home page at <http://localhost:5601/>.
+1. In the left menu bar, click on the **Management** icon.
+2. Click on the **Index Pattern** and select **Create index pattern**.
+3. In the step 1, enter **kafka-poc** in the index pattern field.
+4. In the step 2, select **@timestamp** as the Time Filter name.
+5. Create the index pattern.
+
+You can get a visualization of the traffic in the **Discover** menu.
+![alt text](img/traffic.PNG?raw=true)
+
+Create your own visualization for monitoring.
+![alt text](img/visu.PNG?raw=true)
 
 # Part 3 : Kafka Streams
