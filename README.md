@@ -155,7 +155,4 @@ Create your own visualization for monitoring.
 
 # Part 3 : Kafka Streams
 
-Please refer to this [page](https://github.com/CH-nexDigital/kafka-streams-poc).
-
-```
-```
+Please refer to this [page](https://github.com/CH-nexDigital/kafka-streams-poc) for KStreams Processing.
