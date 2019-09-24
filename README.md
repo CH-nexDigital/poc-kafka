@@ -57,6 +57,12 @@
   
 ![alt text](img/csvparsing.PNG?raw=true)
 
+11. In the **Additional Properties** section, please add a property named **value.converter.schemas.enable** and set its value to false.
+    
+ *This option allow you to remove the schema in the messages.*
+
+![alt text](img/additionalprop.PNG?raw=true)
+
 Once you fill all those fields, launch the connector.
 
 
@@ -142,17 +148,35 @@ $ kafka-console-consumer --bootstrap-server localhost:9092 --topic log2kibana --
 
 Navigate to the Kibana home page at <http://localhost:5601/>.
 1. In the left menu bar, click on the **Management** icon.
-2. Click on the **Index Pattern** and select **Create index pattern**.
-3. In the step 1, enter **kafka-poc** in the index pattern field.
+   
+![alt text](img/management-logo.PNG?raw=true)
+
+
+2. Click on the **Index Patterns** and select **Create index pattern**.
+
+![alt text](img/indexpattern.PNG?raw=true)
+
+
+1. In the step 1, enter **kafka-poc-1** in the index pattern field.
+   
+![alt text](img/createindex.PNG?raw=true)
+
 4. In the step 2, select **@timestamp** as the Time Filter name.
+
+![alt text](img/timestamp.PNG?raw=true)
+
 5. Create the index pattern.
 
 You can get a visualization of the traffic in the **Discover** menu.
-![alt text](img/traffic.PNG?raw=true)
+![alt text](img/traffic2.PNG?raw=true)
 
-Create your own visualization for monitoring.
+
+
+# Part 3: Visualisations
+Create your own visualizations for monitoring.
+
 ![alt text](img/visu.PNG?raw=true)
 
-# Part 3 : Kafka Streams
+# Part 4: Kafka Streams
 
 Please refer to this [page](https://github.com/CH-nexDigital/kafka-streams-poc) for KStreams Processing.
