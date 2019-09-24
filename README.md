@@ -149,12 +149,12 @@ $ kafka-console-consumer --bootstrap-server localhost:9092 --topic log2kibana --
 Navigate to the Kibana home page at <http://localhost:5601/>.
 1. In the left menu bar, click on the **Management** icon.
    
-![alt text](img/management-logo.PNG?raw=true)
+![alt text](img/management-logo.png?raw=true)
 
 
 2. Click on the **Index Patterns** and select **Create index pattern**.
 
-![alt text](img/indexpattern.PNG?raw=true)
+![alt text](img/indexpattern.png?raw=true)
 
 
 1. In the step 1, enter **kafka-poc-1** in the index pattern field.
